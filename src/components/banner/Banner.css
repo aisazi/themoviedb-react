@@ -1,0 +1,45 @@
+.banner {
+    width: 100%;
+    height: 315px;
+    background-image: url(https://media.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter\(duotone,00192f,00baff\)/u0BDggs80FG9tyZwxWTzVTDQls0.jpg);
+    background-size: cover;
+    position: relative;
+  
+  }
+  .banner h1{
+    margin-bottom: 7px;
+  }
+
+  .inside-banner{
+    color: white;
+    position: absolute;
+    top: 90px;
+    left: 35px;
+  }
+  .searchInput{
+    width: 122%;
+    margin-top: 35px;
+    padding: 12px 10px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+  }
+  form{
+    position: relative;
+  }
+  .searchInput2{ 
+   width: 90px;
+   position: absolute;
+   top: 35px;
+   right:-28%;
+   height:41px;
+   outline: none;
+   border: none;
+  border-radius: 15px;
+  }
+  .d{
+    width: 100%;
+    height: 1200px;
+    border: 1px solid red;
+    background-color: blue;
+  }

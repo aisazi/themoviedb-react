@@ -1,0 +1,242 @@
+.dropp{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.dropp img{
+    margin-right: 18px;
+}
+.dropp h5{
+    margin-left: 14px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 5px 0px;
+}
+.sort{
+    width: 270px;
+    border: 1px solid #d9d9d9;  
+    padding: 10px 0px;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-bottom: 18px;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    border: 0.5px solid #d9d9d9;  
+    margin-top: 10px;
+    display: none;
+}
+.sort-result{
+   display: none;
+}
+.popularity{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 12px 0px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:#e6e6e6;
+}
+.popularity:hover{
+    background-color:#cccccc ;
+}
+.popularity img{
+    padding-right: 10px;
+}
+.popularity h4 {
+    font-weight: lighter;
+    margin-left: 5px;
+}
+.move h4 {
+    margin: 10px 0px 10px 14px ;
+    font-weight: 100;
+}
+
+.olay{
+    width: 90%;
+    border: 1px solid #cccccc; 
+    margin-left: 13px;
+    padding-left: 0px;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    display: none;
+
+}
+.olay li{
+    list-style: none;
+    margin-left: 0px;
+    width: 100%;
+    border: 1px solid #f2f2f2;
+    font-size: 14px;
+    padding: 7px 0px 7px 20px;
+    border: none;
+}
+ .olay li:hover {
+   background-color: #f2f2f2;
+ }
+
+
+
+.where{
+    width: 270px;
+    border: 1px solid  #d9d9d9;  
+    padding: 10px 0px;
+    border-radius: 5px;
+    margin-left: 30px;
+
+}
+.watch{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.watch img {
+    margin-top: 5px;
+}
+.watch h4 {
+    margin-left: -2px;
+    font-size: 17px;
+    font-weight:600;
+
+}
+.country-sum{
+    width: 45px;
+    height: 24px;
+    border-radius: 5px;
+    background-color:#e6e6e6;
+}
+
+.line2 {
+    width: 100%;
+    height: 1px;
+    border: 0.5px solid #d9d9d9;  
+    margin-top: 10px;
+    display: none;
+}
+.format {
+   padding-top: 15px;
+   display: none;
+}
+.flex{
+    display: flex;
+    margin-bottom: 7px;
+}
+.flex label {
+    margin-left: 12px;
+}
+.flex img {
+  margin-left: 5px;
+}
+.flex2{
+    display: flex;
+    padding-bottom: 5px;
+}
+.flex2 input{
+  margin-left: 12px;
+  margin-right: 20px;
+}
+.line3 {
+    width: 100%;
+    height: 1px;
+    border: 0.5px solid #d9d9d9;  
+    margin: 10px 0px;
+    /* display: none; */
+}
+.country{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 12px 0px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:#e6e6e6;
+}
+.usa{
+    margin-top: 3px;
+    margin-left: 5px;
+}
+.label-word{
+    margin-left: 15px;
+    font-size: 17px;
+}
+  .country img{
+   padding-left: 10px;
+  }
+  .surot{
+   margin-left: 70px;
+   margin-top: 3px;
+   }
+   .input-card{
+    width: 350px;
+    border: 1px solid  #d9d9d9;
+    margin-left: 12px;
+    border-radius: 5px;
+    padding-top: 17px;
+    display: none;
+   }
+   .input-card input {
+     width: 91%;
+     margin-left: 17px;
+     padding: 10px 3px 10px 0px;
+     background-image: url('https://img.icons8.com/?size=100&id=82712&format=png&color=000000');
+     background-repeat: no-repeat;
+     background-size: 22px;
+     background-position: 280px;
+     box-sizing: border-box;
+     border-radius: 5px;
+     margin-bottom: 20px;
+     border: 1px solid rgb(0, 162, 255);
+   }
+   .input-card li{
+      width: 100%;
+      list-style: none;
+      padding: 5px 0px 5px 16px;
+      display: flex;
+   }
+   .input-card li:hover{
+    background-color: #f2f2f2;
+   }
+   .input-card li h5{
+     margin-top: 5px;
+   }
+.small-cards{
+    display: flex;
+    display: none;
+}
+   .small-cards-children{
+    width: 57px;
+    height: 55px;
+    border: 1px solid red;
+    border-radius: 9px;
+   }
+   .small-cards-children img{
+    width: 100%;
+   
+   }
+   .filter{
+    width: 270px;
+    border: 1px solid #d9d9d9;  
+    padding: 10px 0px;
+    border-radius: 5px;
+    margin: 18px 0px 18px 30px;
+   }
+   .filter-child{
+    display: flex;
+    justify-content: space-between;
+
+   }
+     .filter-child h5{
+        margin-left: 14px;
+        font-size: 17px;
+        font-weight: 600;
+        padding: 5px 0px;
+     }
+     .filter-child img{
+        margin-right: 15px;
+    }

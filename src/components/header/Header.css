@@ -1,0 +1,240 @@
+header{
+  background-color:  hwb(206 2% 79%);
+  border: 1px solid red;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  }
+  nav{
+  /* height: 50px; */
+  padding-top: 10px;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+  .header-list{
+  display: flex;
+  justify-content: center;
+  width: 53%;
+  height: 25px;
+  }
+  .header-list .logo {
+  width: 125px;
+  }
+  .header-list img{
+  display: block;
+  width: 100%;
+  }
+
+  .circle{
+  width: 50px;
+  height: 18px;
+  border: 1px solid red;
+  border-radius: 12px;
+  margin-left: 10px;
+  margin-top: 2px;
+
+  }
+  .header-list li{
+  list-style: none;
+  margin-right: 30px;
+  }
+  .header-list li {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+  }
+
+  .language{
+  width: 27px;
+  height: 27px;
+  border: 1px solid white;
+  border-radius: 3px;
+  text-align: center;
+  }
+  .language h5{
+  font-weight: 100;
+  color: white;
+  margin-top: 5px;
+  font-size: 12px;
+  }
+  .icons{
+  display: flex;
+
+  }
+  .icons div{
+  margin-right: 17px;
+  }
+  .icons ,.plus{
+  margin-top: 2px;
+  }
+
+  .icons ,.bell{
+  margin-top: 3px;
+  }
+  .picture-profile{
+    margin-bottom: 28px;
+  }
+
+  
+  .division{
+  width:28.5%;
+  height: 40px;
+  display: flex;
+  }
+
+  .profile{
+  width: 32px;
+  height: 32px;
+  border: 1px solid white;
+  border: none;
+  border-radius: 50%;
+  background-color: #d29001
+  }
+  .search img{
+  margin-top: 5px;
+  margin-left: 3px;
+  }
+
+.movies:hover .popular{
+  display: block;
+}
+
+
+.popular{
+  width: 150px;
+  height: 122px;
+  border: none;
+  padding-left: 0px;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 3px;   
+  display: none;
+  position: absolute;
+  }
+  .popular li{
+  width: 100%;
+  list-style: none;
+  margin-left: 0px;
+  color: black;
+  padding: 7px 0px 5px 0px;
+  }
+
+
+
+  .popular li a{
+  padding-left: 10px; 
+  text-decoration: none;
+  color: black;
+  }
+
+
+
+  .popular li:hover{
+   background-color: #f2f2f2;
+
+   }
+ 
+  .popular ,.child{
+  padding-top: 6px;
+  }
+
+  .tv-shows:hover .shows{
+    display: block;
+  }
+
+
+.shows{
+
+
+    width: 150px;
+    height: 125px;
+    border: none;
+    padding-left: 0px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 3px;   
+    display: none;
+    position: absolute;
+  }
+  .shows li{
+    width: 100%;
+    list-style: none;
+    margin-left: 0px;
+    color: black;
+    padding: 8px 0px 4px 10px;
+  }
+.shows li a{
+  padding-left: 10px; 
+  text-decoration: none;
+  color: black;
+}
+
+.shows li:hover{
+  background-color: #f2f2f2;
+}
+.show, .child-shows{
+  margin-top: 5px;
+  }
+
+.people:hover .people-popular{
+  display: block;
+}
+
+.people-popular{
+  width: 155px;
+  height: 40px;
+  border: none;
+  background-color: white;
+  margin-right: -120px; 
+  padding-left: 16px;
+  margin-top: 10px;
+  border-radius: 3px; 
+  display: none;
+  }
+  .people-popular li{
+  width: 100%;
+  color: black;
+  list-style: none;
+  margin-left: 0px;
+  }
+  .people-popular,.child-popular{
+  padding-top: 6px;
+  padding-left: 5px;
+  }
+
+
+.parent-more:hover .more{
+  display: block;
+}
+.parent-more li:hover{
+ 
+background-color:#f2f2f2 ;
+}
+
+.more{
+    width: 145px;
+    height: 122px;
+    border: none;
+    padding-left: 0px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 3px;   
+    display: none;
+    position: absolute;
+}
+
+  .more li{
+  width: 100%;
+  padding: 7px 0px 5px 10px;
+  color: black;
+  list-style: none;
+  margin-left: 0px;
+  }
+.more li a{
+  color: black;
+}
+.more,.child-more{
+  padding-top: 6px;
+}
